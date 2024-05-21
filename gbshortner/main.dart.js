@@ -79333,10 +79333,13 @@ A.afQ.prototype={
 $0(){},
 $S:0}
 A.afS.prototype={
-$1(a){if(a.length!==0)if(B.c.bP(a,"http")&&B.c.p(a,"glamourbook.com"))if(B.c.bP(B.b.gL(J.anV(B.b.gI(a.split("?")),"/")),"GB"))return null
+$1(a){var s
+if(a.length!==0){if(B.c.bP(a,"http"))if(B.c.p(a,"glamourbook.com"))s=B.c.p(a,"brands")||B.c.p(a,"product-details")
+else s=!1
+else s=!1
+if(s)if(B.c.bP(B.b.gL(J.anV(B.b.gI(a.split("?")),"/")),"GB"))return null
 else return"Failed to extract product sku, Please try again"
-else return"We currently support GB URLs only"
-else return"Enter Valid GB URL"},
+else return"We currently support GB URLs only"}else return"Enter Valid GB URL"},
 $S:471}
 A.afT.prototype={
 $0(){var s,r,q,p=this.a
