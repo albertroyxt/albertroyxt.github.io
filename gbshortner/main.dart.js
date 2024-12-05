@@ -79357,7 +79357,7 @@ s.f.qG(A.avC(q,q,q,q,q,B.ae,q,A.jT(b.a,q,q,q,q,q,q),q,B.dy,q,q,q,q,q,q,q,q,q))}}
 $S:469}
 A.afY.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l,k,j=null,i=this.a,h=i.r,g=t.F
-h=A.a8S(A.a([B.Qr,B.Lp,new A.dd(B.D4,A.jT(h!=null?"v"+h:"stable",j,j,j,B.P5,j,j),j)],g),B.m3,B.cN,B.cO)
+h=A.a8S(A.a([B.Qr,B.Lp,new A.dd(B.D4,A.jT((h!=null?"v"+h:"0.3.2")+" updated on 05 Dec 2024",j,j,j,B.P5,j,j),j)],g),B.m3,B.cN,B.cO)
 s=i.r
 s=s!=null?A.jT("Version "+s,j,j,j,j,B.hl,j):j
 r=t.w
